@@ -1,7 +1,4 @@
 const { conn, syncAndSeed, models: { Book, Member }} = require('./db')
-// const Sequelize = require('sequelize');
-// const { STRING, UUID, UUIDV4 } = Sequelize;
-// const conn = new Sequelize(process.env.DATABASE_URL || 'postgres://localhost/bookcase_db');
 const express = require('express');
 const app = express();
 
